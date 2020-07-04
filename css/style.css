@@ -2,15 +2,39 @@
     font-family: Tahoma, Geneva, sans-serif;
     
     }
-
+/* header */
 #header {
     background: #F0F0F0;
     color: #333344;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: table;
+        }
+
+
+h1 {
+    font-size: 35px;
+    font-family: courier, "courier new", monospace;
+    font-weight: bold;
+   }
+
+h2 {
+    margin: 0 0 50px 80px;
 }
 
+.header {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* menu */
+#menu {
+    
+}
 
 ul.menu {
-    list-style: none; // убираем маркеры списка
+    list-style: none; /* убираем маркеры списка */
    }
 
 ul.menu li {
@@ -20,20 +44,65 @@ ul.menu li {
 ul.menu li a {
     font-family: Tahoma, Geneva, sans-serif;
     text-decoration: none;
-    background: #5c6cb7;
+    background: #bcc3e2;
     font-weight: bold;
-    color: #ffaa00;
+    color: #574624;
     padding: 6px 10px 10px
 }
 
 ul.menu li a:hover {
     padding: 6px 10 px 6 px 10 px;
     font-weight: bold;
-    background: #364d95;
-    color: #ff9900
+    background: #9bafec;
+    color: #443826
 }
 
+/* content */ 
 
+#content {
+    background: #f0f0f0;
+    color: #333344;
+    width: 1200px;
+    margin: 30px auto;
+    }
+
+    .text {
+        padding: 30px;
+    }
+
+    .text p {
+        font-size: 20px;
+    }
+
+    #content .text ul {
+        font-weight: bold;
+    }
+
+    #content .text ul li {
+        margin: 20px 0;
+    }
+
+    #content .text ul li a {
+        text-decoration: none;
+        background: #a0e6b5;
+        padding: 5px;
+    }
+
+    #content .text ul li a:hover {
+        background: #55d471;
+    }
+
+/* footer */
+
+#footer {
+    background: #f0f0f0;
+    color: #333344;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: courier, "courier new", monospace;
+    padding: 1px;
+}
 
 
 
