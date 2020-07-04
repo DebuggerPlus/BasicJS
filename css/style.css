@@ -1,0 +1,39 @@
+#wrap {
+    font-family: Tahoma, Geneva, sans-serif;
+    
+    }
+
+#header {
+    background: #F0F0F0;
+    color: #333344;
+}
+
+
+ul.menu {
+    list-style: none; // убираем маркеры списка
+   }
+
+ul.menu li {
+    display: inline
+}
+
+ul.menu li a {
+    font-family: Tahoma, Geneva, sans-serif;
+    text-decoration: none;
+    background: #5c6cb7;
+    font-weight: bold;
+    color: #ffaa00;
+    padding: 6px 10px 10px
+}
+
+ul.menu li a:hover {
+    padding: 6px 10 px 6 px 10 px;
+    font-weight: bold;
+    background: #364d95;
+    color: #ff9900
+}
+
+
+
+
+
