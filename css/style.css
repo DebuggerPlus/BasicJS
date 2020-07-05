@@ -51,7 +51,7 @@ ul.menu li a {
 }
 
 ul.menu li a:hover {
-    padding: 6px 10 px 6 px 10 px;
+    padding: 6px 10px 6px 10px;
     font-weight: bold;
     background: #9bafec;
     color: #443826
@@ -102,6 +102,15 @@ ul.menu li a:hover {
     text-align: center;
     font-family: courier, "courier new", monospace;
     padding: 1px;
+}
+
+
+@media screen and (max-width: 768px) {
+    ul.menu li {
+      display: block;  
+      padding: 5px 10px 5px;
+      margin: 10px 0 5px;
+    }    
 }
 
 
