@@ -6,7 +6,7 @@
 #header {
     background: #F0F0F0;
     color: #333344;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     display: table;
@@ -30,7 +30,26 @@ h2 {
 
 /* menu */
 #menu {
-    
+    background: #F0F0F0;
+    height: 60px;
+    /* position: relative;  */
+}
+
+/* .center {
+    position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(-50%, -50%); */
+}
+.center {
+    display: table-cell;
+    margin: auto;
+   }
+
+
+ul.menu {
+    margin: auto;
+    vertical-align: middle;
 }
 
 ul.menu {
@@ -62,7 +81,7 @@ ul.menu li a:hover {
 #content {
     background: #f0f0f0;
     color: #333344;
-    width: 1200px;
+    width: 100%;
     margin: 30px auto;
     }
 
@@ -97,7 +116,7 @@ ul.menu li a:hover {
 #footer {
     background: #f0f0f0;
     color: #333344;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     font-family: courier, "courier new", monospace;
